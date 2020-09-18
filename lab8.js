@@ -35,7 +35,7 @@ for(i = 0; i < 5; i++) {
     }
 }
 
-console.log(i);
+
 if(i == 5) {
     document.write("Better luck next time!");
 }
@@ -43,3 +43,5 @@ if(i == 5) {
 else {
     document.write("Congratulations!");
 }
+
+console.log(i);
