@@ -3,18 +3,18 @@
 
 var num = 38;
 var guess;
+var i;
 
 
 
-
-for(var i = 0; i < 5; i++) {
+for(i = 0; i < 5; i++) {
 
     guess = prompt("Please guess a number between 1 and 50 within 5 attempts.");
     var remain = 4-i;
     console.log(i);
     console.log(guess);
 
-    if (guess==num) {
+    if (guess == num) {
         alert("Winner winner chicken dinner!")
         break;
     } 
@@ -35,7 +35,8 @@ for(var i = 0; i < 5; i++) {
     }
 }
 
-if(i=5) {
+console.log(i);
+if(i == 5) {
     document.write("Better luck next time!");
 }
 
