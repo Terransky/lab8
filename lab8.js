@@ -17,8 +17,8 @@ for(var i = 0; i < 5; i++) {
     if (guess==num) {
         alert("Winner winner chicken dinner!")
         break;
-    }
-
+    } 
+    
     else if (guess < num && guess >= 1) {
         alert("Guessed too low. You have " + remain + " attempts remaining.");
     }
@@ -35,3 +35,10 @@ for(var i = 0; i < 5; i++) {
     }
 }
 
+if(i=5) {
+    document.write("Better luck next time!");
+}
+
+else {
+    document.write("Congratulations!");
+}
